@@ -1,0 +1,20 @@
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.itemContainer {
+  padding: 32px;
+  background-color: #EBEEFD;
+  box-shadow: 0px 4px 4px -1px #0C0C0D0D, 0px 4px 4px -1px #0C0C0D1A;
+  border-radius: 16px;
+  margin-bottom: 80px;
+}
+
+.inputGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px 80px;
+}
